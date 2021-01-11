@@ -1,4 +1,12 @@
 library(shiny)
+library(tm);
+library(memoise);
+library(tidyRSS);
+library(httr);
+library(XML);
+library(wordcloud2);
+library(stringi);
+library(solrium);
 
 shapes<<- list("Circle" = "circle",
                "Cardioid"= "cardioid",
